@@ -1,0 +1,71 @@
+/***Home Page***/
+.parallax {
+    /* The image used */
+    background-image: url("http://www.cycling4you.com/wp-content/uploads/2017/07/cycling-blog-ranking.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.add-on .input-group-btn > .btn {
+  border-left-width:0;
+  left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+form .input-group.add-on {
+	height:50px;
+}
+#branding {
+	padding:20px 0;
+	overflow:hidden;
+}
+.logo.img {
+	max-width:100%;
+}
+nav#top-nav {
+	height: 30px;
+	font-size: 0.9em;
+}
+#top-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-link {
+	text-transform:uppercase;
+}
+.dropdown:hover>.dropdown-menu {
+	display: block;
+	border-radius: 0;
+	height: 175px;
+	min-width: 515px;
+	position: absolute;
+}
+ul.navbar-nav {
+	margin:0 auto;
+}
+li.nav-item {
+	margin-right: 20px;
+}
+.nav-title {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.social-icons span.fa {
+	font-size: 2.3em;
+	color: #343a40;
+}
+.social-icons a {
+	padding:0;
+}
